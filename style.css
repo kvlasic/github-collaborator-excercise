@@ -1,0 +1,196 @@
+/* font-family: 'Hammersmith One', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; 
+Regular 400
+Black 900
+Thin 100
+Light 300
+*/
+
+body {
+    margin: auto;
+    max-width: 1600px;
+    min-width: 864px;
+}
+
+header {
+    background-image: url("./photoshop/design-assets/bgk-header.png");
+    background-repeat: no-repeat;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    box-sizing: border-box;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    max-width: 960px;
+}
+
+div.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 960px;
+}
+
+header .column {
+    max-width: 780px;
+}
+
+nav {
+    padding-top: 17.5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 220px;
+}
+
+nav ul li {
+    height: auto;
+    padding: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #00e0d0;
+}
+
+header .column h1 {
+    font: 900 25pt 'Playfair Display', sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 50px;
+    border-color: #00e0d0;
+}
+
+header .column p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    line-height: 24pt;
+    text-align: center;
+    width: 960px;
+}
+
+header #logo {
+    display: flex;
+    align-items: center;
+    height: min-content;
+}
+
+header #logo img {
+    width: 44px;
+    height: 50px;
+}
+
+header #logo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    font-weight: 100;
+    background: -webkit-linear-gradient(left, #00e0d0, #4aa3cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 10px;
+}
+
+header .content {
+    height: max-content;
+}
+
+button {
+    color: #00e0d0;
+    background: none;
+    border: solid 1px #00e0d0;
+    text-transform: uppercase;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    padding: 6px 14px;
+    margin-top: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: #00e0d0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+#our-story {
+    display: block;
+    padding: 90px 0;
+}
+
+.content img {
+    padding: 90px;
+    width: 235px;
+    height: 229px;
+}
+
+#our-story h2 {
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#our-story p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
+}
+
+#middle {
+    background-image: url("./photoshop/design-assets/bgk-middle.png");
+    background-repeat: no-repeat;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+#middle img {
+    height: 103px;
+    width: 103px;
+}
+
+#middle .column {
+    justify-content: center;
+}
+
+#middle .column p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13pt;
+    margin-top: 15px;
+}
